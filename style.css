@@ -1,0 +1,9 @@
+body{
+    background-color: yellow;
+    color: darkorange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+canvas{
+    margin-top: 90px;
+}
