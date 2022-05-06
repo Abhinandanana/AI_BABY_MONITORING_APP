@@ -43,7 +43,7 @@ text(objects[i].label + " " + percent + "%", objects[i].x + 10, objects[i].y + 1
 noFill();
 stroke(r, g, b);
 rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
-if (objects[i] == "person"){
+if (objects[i].label == "person"){
     document.getElementById("result").innerHTML= "Baby Found";
             alarm.stop();
 }
